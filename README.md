@@ -268,6 +268,7 @@ Update your environment files with production values:
 🚀 What's Next?
 
     Add user authentication/authorization
+    Add pagination (back-end side)
     Make use of some database
     Implement end-to-end tests
     Performance optimization
