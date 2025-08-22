@@ -37,18 +37,21 @@ func NewAppService(client *http.Client, cfg *config.Config, log *logger.SimpleLo
 // GetApps fetches a list of apps from a given URL and deserializes
 // the JSON response into an array of App structs.
 func (s *AppService) GetApps() ([]*models.AppResponse, error) {
-	//s.Logger.Info("Starting GetApps operation")
-	//existingApps, err := s.loadAppsFromFile(s.Config.AppsStorageFile)
-	//
-	//if err != nil {
-	//	s.Logger.Debug("Failed to load apps from file, will fetch from API", "error", err)
-	//	_ = fmt.Errorf("failed to load apps from apps.json: %w", err)
-	//} else if len(existingApps) != 0 {
-	//	s.Logger.Info("Loaded apps from cache file", "count", len(existingApps))
-	//	return existingApps, nil
-	//}
-
 	s.Logger.Info("Fetching apps from API", "url", s.Config.AppsApiUrl)
+	existingApps, err := s.loadAppsFromFile(s.Config.AppsStorageFile)
+
+	if err != nil {
+		s.Logger.Debug("Failed to load apps from file, will fetch from API", "error", err)
+		_ = fmt.Errorf("failed to load apps from apps.json: %w", err)
+	} else if len(existingApps) != 0 {
+		s.Logger.Info("Loaded apps from cache file", "count", len(existingApps))
+		appResponses := make([]*models.AppResponse, len(existingApps))
+		for i, app := range existingApps {
+			response, _ := app.ToAppResponse()
+			appResponses[i] = response
+		}
+		return appResponses, nil
+	}
 
 	resp, err := s.Client.Get(s.Config.AppsApiUrl)
 	//resp, err := s.Client.Get("https://jsonplaceholder.typicode.com/posts")
@@ -83,13 +86,18 @@ func (s *AppService) GetApps() ([]*models.AppResponse, error) {
 	} else {
 		s.Logger.Info("Successfully saved apps to cache file", "count", len(root.Feed.Entries))
 	}
+	appResponses := s.convertRootToAppResponse(root)
+	s.Logger.Info("Successfully fetched apps from API", "count", len(root.Feed.Entries))
+	return appResponses, nil
+}
+
+func (s *AppService) convertRootToAppResponse(root models.Root) []*models.AppResponse {
 	var appResponses []*models.AppResponse
 	for _, app := range root.Feed.Entries {
 		response, _ := app.ToAppResponse()
 		appResponses = append(appResponses, response)
 	}
-	s.Logger.Info("Successfully fetched apps from API", "count", len(root.Feed.Entries))
-	return appResponses, nil
+	return appResponses
 }
 
 // saveAppsToFile marshals the provided slice of App structs and saves it to a JSON file.
