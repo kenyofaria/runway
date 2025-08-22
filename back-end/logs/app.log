@@ -1,0 +1,262 @@
+INFO: 2025/08/21 19:39:06 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:40:03 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:40:59 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:40:59 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:41:07 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:41:16 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:41:34 logger.go:67: Starting runway microservice | [port 8080]
+INFO: 2025/08/21 19:45:45 logger.go:67: Processing app list request
+INFO: 2025/08/21 19:45:45 logger.go:67: Starting GetApps operation
+INFO: 2025/08/21 19:45:45 logger.go:67: Loaded apps from cache file | [count 100]
+INFO: 2025/08/21 19:45:45 logger.go:67: Successfully returned app list | [count 100]
+INFO: 2025/08/21 19:45:46 logger.go:67: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/21 19:45:46 logger.go:67: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/21 19:45:46 logger.go:67: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/21 19:45:46 logger.go:67: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/21 19:45:46 logger.go:67: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/21 19:45:46 logger.go:67: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/21 19:45:46 logger.go:67: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/21 19:45:48 logger.go:67: Processing app reviews request | [appID 6448311069 hours 96]
+INFO: 2025/08/21 19:45:48 logger.go:67: Starting GetReviews operation | [appID 6448311069 hours 96]
+INFO: 2025/08/21 19:45:48 logger.go:67: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/21 19:45:48 logger.go:67: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 19:45:48 logger.go:67: Successfully filtered reviews by time | [total 50 filtered 50]
+INFO: 2025/08/21 19:45:48 logger.go:67: Successfully returned reviews | [count 50 appID 6448311069]
+INFO: 2025/08/21 20:05:04 logger.go:62: Processing app list request
+INFO: 2025/08/21 20:05:04 logger.go:62: Starting GetApps operation
+INFO: 2025/08/21 20:05:04 logger.go:62: Loaded apps from cache file | [count 100]
+INFO: 2025/08/21 20:05:04 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/21 20:05:06 logger.go:62: Processing app reviews request | [appID 6742278016 hours 24]
+INFO: 2025/08/21 20:05:06 logger.go:62: Starting GetReviews operation | [appID 6742278016 hours 24]
+INFO: 2025/08/21 20:05:06 logger.go:62: Fetching reviews from API | [appID 6742278016]
+INFO: 2025/08/21 20:05:06 logger.go:62: Processing app reviews request | [appID 6742278016 hours 24]
+INFO: 2025/08/21 20:05:06 logger.go:62: Starting GetReviews operation | [appID 6742278016 hours 24]
+INFO: 2025/08/21 20:05:06 logger.go:62: Fetching reviews from API | [appID 6742278016]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully returned reviews | [count 0 appID 6742278016]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/21 20:05:06 logger.go:62: Successfully returned reviews | [count 0 appID 6742278016]
+INFO: 2025/08/21 20:05:08 logger.go:62: Processing app reviews request | [appID 6742278016 hours ]
+INFO: 2025/08/21 20:05:08 logger.go:62: Starting GetReviews operation | [appID 6742278016 hours 0]
+INFO: 2025/08/21 20:05:08 logger.go:62: Fetching reviews from API | [appID 6742278016]
+INFO: 2025/08/21 20:05:08 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/21 20:05:08 logger.go:62: Returning all reviews | [total 50]
+INFO: 2025/08/21 20:05:08 logger.go:62: Successfully returned reviews | [count 50 appID 6742278016]
+INFO: 2025/08/22 07:21:15 logger.go:62: Processing app list request
+INFO: 2025/08/22 07:21:15 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 07:21:15 logger.go:62: Loaded apps from cache file | [count 100]
+INFO: 2025/08/22 07:21:15 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 07:21:20 logger.go:62: Processing app reviews request | [appID 535886823 hours 24]
+INFO: 2025/08/22 07:21:20 logger.go:62: Starting GetReviews operation | [appID 535886823 hours 24]
+INFO: 2025/08/22 07:21:20 logger.go:62: Fetching reviews from API | [appID 535886823]
+INFO: 2025/08/22 07:21:20 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 07:21:20 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 07:21:20 logger.go:62: Successfully returned reviews | [count 0 appID 535886823]
+INFO: 2025/08/22 07:21:20 logger.go:62: Processing app reviews request | [appID 535886823 hours 24]
+INFO: 2025/08/22 07:21:20 logger.go:62: Starting GetReviews operation | [appID 535886823 hours 24]
+INFO: 2025/08/22 07:21:20 logger.go:62: Fetching reviews from API | [appID 535886823]
+INFO: 2025/08/22 07:21:21 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 07:21:21 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 07:21:21 logger.go:62: Successfully returned reviews | [count 0 appID 535886823]
+INFO: 2025/08/22 07:21:24 logger.go:62: Processing app reviews request | [appID 535886823 hours ]
+INFO: 2025/08/22 07:21:24 logger.go:62: Starting GetReviews operation | [appID 535886823 hours 0]
+INFO: 2025/08/22 07:21:24 logger.go:62: Fetching reviews from API | [appID 535886823]
+INFO: 2025/08/22 07:21:24 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 07:21:24 logger.go:62: Returning all reviews | [total 50]
+INFO: 2025/08/22 07:21:24 logger.go:62: Successfully returned reviews | [count 50 appID 535886823]
+INFO: 2025/08/22 07:44:26 logger.go:62: Processing app list request
+INFO: 2025/08/22 07:44:26 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 07:44:26 logger.go:62: Loaded apps from cache file | [count 100]
+INFO: 2025/08/22 07:44:26 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 08:00:41 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:00:41 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:00:41 logger.go:62: Loaded apps from cache file | [count 100]
+INFO: 2025/08/22 08:00:41 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 08:00:56 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:00:56 logger.go:62: Starting GetApps operation
+DEBUG: 2025/08/22 08:00:56 logger.go:82: Failed to load apps from file, will fetch from API | [error failed to read file: open data/apps.json: no such file or directory]
+INFO: 2025/08/22 08:00:56 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:00:56 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:00:56 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:00:56 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 08:03:13 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:03:13 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:03:13 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:36:49 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:36:49 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:36:49 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:36:51 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:36:51 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:36:51 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 08:37:41 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:37:41 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:37:41 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:43:41 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:43:41 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:43:41 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:43:56 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:43:56 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:43:56 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 08:45:54 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:45:54 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:45:54 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:45:54 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:45:54 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:45:54 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 08:50:28 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:50:28 logger.go:62: Starting GetApps operation
+DEBUG: 2025/08/22 08:50:28 logger.go:82: Failed to load apps from file, will fetch from API | [error failed to unmarshal JSON from file: unexpected end of JSON input]
+INFO: 2025/08/22 08:50:28 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:50:58 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:50:58 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:50:58 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 08:57:27 logger.go:62: Processing app list request
+INFO: 2025/08/22 08:57:27 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 08:57:27 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 08:57:28 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 08:57:28 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 08:57:28 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:00:42 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:00:42 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:00:42 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:00:42 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:00:42 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:00:42 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:00:46 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:00:46 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:00:46 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:00:46 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:00:46 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:00:46 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:00:47 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:00:47 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:00:47 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:00:47 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:00:47 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:00:47 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:03:31 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:03:31 logger.go:62: Starting GetApps operation
+DEBUG: 2025/08/22 09:03:31 logger.go:82: Failed to load apps from file, will fetch from API | [error failed to read file: open data/apps.json: no such file or directory]
+INFO: 2025/08/22 09:03:31 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:03:33 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:03:33 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:03:33 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:03:40 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:03:40 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:03:40 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:03:40 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:03:40 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:03:40 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:04:07 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:04:07 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:04:07 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:04:07 logger.go:62: Successfully saved apps to cache file | [count 0]
+INFO: 2025/08/22 09:04:07 logger.go:62: Successfully fetched apps from API | [count 0]
+INFO: 2025/08/22 09:04:07 logger.go:62: Successfully returned app list | [count 0]
+INFO: 2025/08/22 09:07:24 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:07:24 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:07:24 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:08:23 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:08:23 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:08:23 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:13:56 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:13:56 logger.go:62: Starting GetApps operation
+INFO: 2025/08/22 09:13:56 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:25:22 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:25:22 logger.go:62: Starting GetApps operation
+DEBUG: 2025/08/22 09:25:22 logger.go:82: Failed to load apps from file, will fetch from API | [error failed to unmarshal JSON from file: unexpected end of JSON input]
+INFO: 2025/08/22 09:25:22 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:28:51 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:28:51 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:31:59 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:31:59 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:41:27 logger.go:62: Processing app list request
+INFO: 2025/08/22 09:41:27 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 09:41:40 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 09:41:40 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 09:41:40 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:07:12 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:07:12 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:07:14 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:07:26 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:07:26 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:07:45 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:07:45 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:07:45 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:07:49 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:07:49 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:08:17 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:08:17 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:08:18 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:08:18 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:08:18 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:08:43 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:08:43 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:08:43 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:08:43 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:08:43 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:09:32 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:09:32 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:09:32 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:09:32 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:09:32 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:09:35 logger.go:62: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:09:35 logger.go:62: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:09:35 logger.go:62: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/22 10:09:35 logger.go:62: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:09:35 logger.go:62: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:09:35 logger.go:62: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:09:35 logger.go:62: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/22 10:09:38 logger.go:62: Processing app reviews request | [appID 6448311069 hours 96]
+INFO: 2025/08/22 10:09:38 logger.go:62: Starting GetReviews operation | [appID 6448311069 hours 96]
+INFO: 2025/08/22 10:09:38 logger.go:62: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/22 10:09:38 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:09:38 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 50]
+INFO: 2025/08/22 10:09:38 logger.go:62: Successfully returned reviews | [count 50 appID 6448311069]
+INFO: 2025/08/22 10:37:19 logger.go:62: Processing app list request
+INFO: 2025/08/22 10:37:19 logger.go:62: Fetching apps from API | [url https://itunes.apple.com/us/rss/topfreeapplications/limit=100/json]
+INFO: 2025/08/22 10:37:19 logger.go:62: Successfully saved apps to cache file | [count 100]
+INFO: 2025/08/22 10:37:19 logger.go:62: Successfully fetched apps from API | [count 100]
+INFO: 2025/08/22 10:37:19 logger.go:62: Successfully returned app list | [count 100]
+INFO: 2025/08/22 10:37:22 logger.go:62: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:37:22 logger.go:62: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:37:22 logger.go:62: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/22 10:37:22 logger.go:62: Processing app reviews request | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:37:22 logger.go:62: Starting GetReviews operation | [appID 6448311069 hours 24]
+INFO: 2025/08/22 10:37:22 logger.go:62: Fetching reviews from API | [appID 6448311069]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:37:22 logger.go:62: Successfully returned reviews | [count 0 appID 6448311069]
+INFO: 2025/08/22 10:37:26 logger.go:62: Processing app reviews request | [appID 6444453051 hours 24]
+INFO: 2025/08/22 10:37:26 logger.go:62: Starting GetReviews operation | [appID 6444453051 hours 24]
+INFO: 2025/08/22 10:37:26 logger.go:62: Fetching reviews from API | [appID 6444453051]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully returned reviews | [count 0 appID 6444453051]
+INFO: 2025/08/22 10:37:26 logger.go:62: Processing app reviews request | [appID 6444453051 hours 24]
+INFO: 2025/08/22 10:37:26 logger.go:62: Starting GetReviews operation | [appID 6444453051 hours 24]
+INFO: 2025/08/22 10:37:26 logger.go:62: Fetching reviews from API | [appID 6444453051]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully filtered reviews by time | [total 50 filtered 0]
+INFO: 2025/08/22 10:37:26 logger.go:62: Successfully returned reviews | [count 0 appID 6444453051]
+INFO: 2025/08/22 10:37:27 logger.go:62: Processing app reviews request | [appID 6444453051 hours ]
+INFO: 2025/08/22 10:37:27 logger.go:62: Starting GetReviews operation | [appID 6444453051 hours 0]
+INFO: 2025/08/22 10:37:27 logger.go:62: Fetching reviews from API | [appID 6444453051]
+INFO: 2025/08/22 10:37:27 logger.go:62: Successfully fetched reviews from API | [count 50]
+INFO: 2025/08/22 10:37:27 logger.go:62: Returning all reviews | [total 50]
+INFO: 2025/08/22 10:37:27 logger.go:62: Successfully returned reviews | [count 50 appID 6444453051]

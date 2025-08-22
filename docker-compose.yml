@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend-service:
+    build:
+      context: ./back-end
+    ports:
+      - "8080:8080"
+    container_name: backend-service
+    networks:
+      my-custom-network:
+        ipv4_address: 172.20.0.2
+    restart: unless-stopped
+
+  frontend-service:
+    build:
+      context: ./front-end
+    ports:
+      - "3000:3000"
+    container_name: frontend-service
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+      - HOST=0.0.0.0
+    networks:
+      my-custom-network:
+        ipv4_address: 172.20.0.3
+    depends_on:
+      - backend-service
+    restart: unless-stopped
+    volumes:
+      - ./front-end/src:/app/src
+
+networks:
+  my-custom-network:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
