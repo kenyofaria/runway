@@ -49,14 +49,13 @@ type Root struct {
 
 // Entry represents a single application's data.
 type App struct {
-	IMName        LabelField  `json:"im:name"`
-	IMImages      []Image     `json:"im:image"`
-	Summary       LabelField  `json:"summary"`
-	IMPrice       Price       `json:"im:price"`
-	IMContentType ContentType `json:"im:contentType"`
-	Rights        LabelField  `json:"rights"`
-	Title         LabelField  `json:"title"`
-	// Use json.RawMessage to handle the polymorphic 'link' field.
+	IMName        LabelField      `json:"im:name"`
+	IMImages      []Image         `json:"im:image"`
+	Summary       LabelField      `json:"summary"`
+	IMPrice       Price           `json:"im:price"`
+	IMContentType ContentType     `json:"im:contentType"`
+	Rights        LabelField      `json:"rights"`
+	Title         LabelField      `json:"title"`
 	LinkRaw       json.RawMessage `json:"link"`
 	LinkSingle    Link            `json:"-"`
 	LinkMulti     []Link          `json:"-"`
@@ -196,7 +195,6 @@ type Link struct {
 
 // The UnmarshalJSON method for Entry handles the dynamic `link` field.
 func (e *App) UnmarshalJSON(data []byte) error {
-	// A temporary struct to avoid infinite recursion.
 	type Alias App
 	aux := &struct {
 		*Alias
@@ -204,49 +202,24 @@ func (e *App) UnmarshalJSON(data []byte) error {
 		Alias: (*Alias)(e),
 	}
 
-	// Unmarshal all fields except 'link' into the temporary struct.
 	if err := json.Unmarshal(data, aux); err != nil {
 		return err
 	}
 
-	// Try to unmarshal the raw 'link' message as a single Link struct.
 	var single Link
 	if err := json.Unmarshal(e.LinkRaw, &single); err == nil {
 		e.LinkSingle = single
 		return nil
 	}
 
-	// If it fails, assume it's an array and try to unmarshal it as such.
 	var multi []Link
 	if err := json.Unmarshal(e.LinkRaw, &multi); err == nil {
 		e.LinkMulti = multi
 		return nil
 	}
 
-	// If both attempts fail, return an error.
 	return fmt.Errorf("failed to unmarshal 'link' field")
 }
-
-// APIResponse represents the complete top-level JSON structure for the app list.
-//type APIResponse struct {
-//	Feed Feed `json:"feed"`
-//}
-
-//// Feed represents the nested "feed" object for the app list.
-//type Feed struct {
-//	Results []App `json:"entry"`
-//}
-//
-//// App represents a single app with its metadata.
-//type App struct {
-//	ID          string     `json:"id"`
-//	Author      string     `json:"artistName"`
-//	ReleaseDate CustomTime `json:"releaseDate"`
-//	Name        string     `json:"name"`
-//	Kind        string     `json:"kind"`
-//	ArtworkURL  string     `json:"artworkUrl100"`
-//	URL         string     `json:"url"`
-//}
 
 // ReviewFeed represents the top-level JSON structure for app reviews.
 type ReviewFeed struct {
